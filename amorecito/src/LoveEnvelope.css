@@ -222,15 +222,11 @@ body {
     color: var(--letter-clr-text);
 }
 
-.custom-image {
-    width: 100px;
-    height: 100px;
-    object-fit: contain;
-}
+
 
 .custom-image2 {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     object-fit: contain;
 }
 
@@ -262,5 +258,11 @@ body {
 
     .highlight {
         font-size: 1rem; /* Reducimos el tamaño de la fuente */
+    }
+
+    .custom-image2 {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
     }
 }
